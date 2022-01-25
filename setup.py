@@ -32,7 +32,8 @@ setup(
         'base58',
         'base58check',
         'bech32',
-        'pysha3'
+        'pysha3',
+        'loguru'
     ],
     extras_require={
         'test': [

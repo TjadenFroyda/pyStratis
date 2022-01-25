@@ -401,7 +401,7 @@ def test_remove_transactions(strax_hot_node: BaseNode, get_datetime):
             for item in response:
                 assert isinstance(item, RemovedTransactionModel)
     except APIError:
-        # TODO remove_transactions using 'from_date' not implemented on full node as of release 1.1.0.0
+        # TODO remove_transactions using 'from_date' not implemented on full node as of release 1.1.1.0
         pass
     
     
